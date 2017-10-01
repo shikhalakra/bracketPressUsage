@@ -12,6 +12,4 @@ Step 5: Do Registration and go to login page.
 
 Steps 6: Login with credentials provided in Registration page. You will land to the competition result page.
 
-All the Snapshots of website usage are attached in the doc file in this folder.
-
 Contact me on shikhalakra.ml@gmail.com in case of any clarity.
