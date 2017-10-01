@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tournament-bracket-generator\n"
+"POT-Creation-Date: 2017-01-20 13:36-0700\n"
+"PO-Revision-Date: 2017-01-20 13:37-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class.tournamentbracket-admin.php:21 class.tournamentbracket-admin.php:22
+msgid "Tournament Bracket Generator"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:32
+msgid "Tournament Bracket Options"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:38
+msgid "Bracket Name"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:45
+msgid "Bracket Items<br><br>(Seperate Items with commas)"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:52
+msgid "Include Advance Counter"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:59
+msgid "Include Match Names"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:109
+msgid "Bracket Settings"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:110
+msgid "Bracket Preview"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:118
+msgid "Shortcode Example"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:119
+msgid "Shortcode:"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:121
+msgid "Class: (optional) Defines a css class for the brackets wrapper element"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:191
+msgid "none"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:192
+msgid "Best of one"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:193
+msgid "Best of three"
+msgstr ""
+
+#: class.tournamentbracket-admin.php:194
+msgid "Best of five"
+msgstr ""
+
+#: class.tournamentbracket-layout.php:129
+#: class.tournamentbracket-layout.php:176
+msgid "Prev Round"
+msgstr ""
+
+#: class.tournamentbracket-layout.php:129
+#: class.tournamentbracket-layout.php:176
+msgid "Next Round"
+msgstr ""
+
+#: class.tournamentbracket.php:48
+#, php-format
+msgid ""
+"Could not activate Tournament Bracket Generator version %s because it "
+"requires wordpress version %s or greater."
+msgstr ""

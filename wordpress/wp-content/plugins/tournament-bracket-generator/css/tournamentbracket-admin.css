@@ -1,0 +1,32 @@
+.bracket-item .dashicons-arrow-right-alt,
+.bracket-item .dashicons-arrow-left-alt,
+.bracket-finalist .dashicons-arrow-left-alt,
+.bracket-finalist-no-name .dashicons-arrow-left-alt{
+	cursor: pointer;
+	font-size: 16px;
+}
+.bracket-item .dashicons-arrow-left-alt,
+.bracket-finalist .dashicons-arrow-left-alt,
+.bracket-finalist-no-name .dashicons-arrow-left-alt{
+	float: left;
+}
+.submit{
+	display: inline;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.save-bracket,
+.reset-bracket{
+	margin-bottom: 15px !important;
+}
+th{
+	vertical-align: middle;
+}
+textarea{
+	height: 150px;
+	width: 250px;
+}
+p + ul{
+	list-style: initial;
+	margin-left: 17px;
+}

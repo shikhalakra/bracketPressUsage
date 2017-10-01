@@ -1,0 +1,465 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: RedxunLite\n"
+"POT-Creation-Date: 2017-09-22 12:46+0300\n"
+"PO-Revision-Date: 2017-09-22 12:46+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:49 comments.php:66
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50 comments.php:67
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:51 comments.php:68
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:30
+msgid "Copyright &copy;"
+msgstr ""
+
+#: footer.php:30
+msgid "Y"
+msgstr ""
+
+#: footer.php:32
+#, php-format
+msgid " Theme: %1$s by %2$s"
+msgstr ""
+
+#: functions.php:22
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:23
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:56
+msgid "Sidebar"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:24
+msgid "Thank you for choosing Redxun Lite!"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:25
+msgid ""
+"Please, go to WordPress Customizer to use Redxun options.\n"
+"\t\tIf you need help, tweet @wowthemesnet or e-mail us at wowthemesnet@gmail."
+"com and we will answer as soon as possible."
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:27
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:32
+msgid "Need Extra Features? Meet Redxun PRO!"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:33
+msgid "Visit Redxun PRO"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:36
+msgid "Custom Typography"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:37
+msgid "All Google Fonts Library"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:38
+msgid "3 Custom Layouts set globally/individual posts"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:39
+msgid "5 Header Styles set globally/individual posts"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:40
+msgid "Custom Top Area, Full Video Header supported"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:41
+msgid "Built in Advertising Blocks"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:42
+msgid "Top and Bottom Index/Archives"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:43
+msgid "Top and Bottom Articles"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:44
+msgid "Inside articles, after a certain number of paragraphs at your choice"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:45
+msgid "Hide/display elements accross pages"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:46
+msgid "Related Posts"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:47
+msgid "Custom Widgets"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:48
+msgid "Tracking Code Areas in header, footer"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:49
+msgid "Mailchimp for WP Integration"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:50
+msgid "Post Views Integration"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:51
+msgid "Basic Shortcodes"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:52
+msgid "WowPopup premium plugin included for your blog marketing purposes"
+msgstr ""
+
+#: inc/admin/welcome-screen/sections/getting-started.php:53
+msgid "And much more!"
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:24
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing Redxun Lite! Make sure you visit our "
+"%1$swelcome page%1$s."
+msgstr ""
+
+#: inc/admin/welcome-screen/welcome-screen.php:25
+msgid "Get started with Redxun Lite"
+msgstr ""
+
+#: inc/options/customizer.php:48
+msgid "Redxun Theme"
+msgstr ""
+
+#: inc/options/customizer.php:49
+msgid "Redxun Theme Options"
+msgstr ""
+
+#: inc/options/customizer.php:56
+msgid "Fixed Navigations"
+msgstr ""
+
+#: inc/options/customizer.php:65
+msgid "Disable Fixed Side Nav"
+msgstr ""
+
+#: inc/options/customizer.php:66
+msgid ""
+"Appears on articles/archives as fixed side nav (older/newer posts & prev/"
+"next post)."
+msgstr ""
+
+#: inc/options/customizer.php:74
+msgid "Disable Fixed Bottom Nav"
+msgstr ""
+
+#: inc/options/customizer.php:75
+msgid "Appears on index/archives as fixed bottom nav (older/newer posts)."
+msgstr ""
+
+#: inc/options/customizer.php:85
+msgid "Start Here"
+msgstr ""
+
+#: inc/options/customizer.php:95
+msgid "Short guide to get started"
+msgstr ""
+
+#: inc/options/customizer.php:98
+msgid ""
+"1. To add custom logo, home intro text & description, go back 2 levels and "
+"select Site Identity. 2. To set a default custom header and a header text "
+"color go back 2 levels and select Custom Header. 3. Go back one level for "
+"the rest of the settings."
+msgstr ""
+
+#: inc/options/customizer.php:106
+msgid "Visit \"Redxun\" Pro with extra features"
+msgstr ""
+
+#: inc/options/customizer.php:113
+msgid "Background Headers"
+msgstr ""
+
+#: inc/options/customizer.php:121
+msgid "Blog Home Intro Image"
+msgstr ""
+
+#: inc/options/customizer.php:130
+msgid "Special Background Header"
+msgstr ""
+
+#: inc/options/customizer.php:131
+msgid "Archives, 404, Search Results."
+msgstr ""
+
+#: inc/options/customizer.php:140
+msgid "Tip"
+msgstr ""
+
+#: inc/options/customizer.php:143
+msgid ""
+"Need to set a default image header or to change the white title color? Go "
+"back 2 levels and select <i>Header Image</i>."
+msgstr ""
+
+#: inc/options/customizer.php:151
+msgid "Layouts"
+msgstr ""
+
+#: inc/options/customizer.php:159
+msgid "Main Index Layout"
+msgstr ""
+
+#: inc/options/customizer.php:160
+msgid "Select layout for index and archive pages"
+msgstr ""
+
+#: inc/options/customizer.php:172
+msgid "Article Layout"
+msgstr ""
+
+#: inc/options/customizer.php:186
+msgid "Footer"
+msgstr ""
+
+#: inc/options/customizer.php:194
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/options/include-kirki.php:53 inc/options/include-kirki.php:57
+msgid ""
+"\n"
+"\t\t\t\t\t\tKirki Toolkit plugin is recommended to take advantage of this "
+"theme's features in the customizer."
+msgstr ""
+
+#: inc/options/include-kirki.php:55
+msgid "Install Now"
+msgstr ""
+
+#: inc/options/include-kirki.php:59
+msgid "Activate Now"
+msgstr ""
+
+#: inc/template-tags.php:18
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:18
+msgid "of"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> Older Posts"
+msgstr ""
+
+#: inc/template-tags.php:26
+msgid "Newer Posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:50
+msgctxt "Previous post link"
+msgid " <span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: inc/template-tags.php:51
+msgctxt "Next post link"
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:73
+#, php-format
+msgid ""
+"<span class=\"posted-on\">%1$s</span><span class=\"byline\"> %2$s</span>"
+msgstr ""
+
+#: inc/template-tags.php:113
+msgid " "
+msgstr ""
+
+#: index.php:24 index.php:37
+msgid "<span class=\"fa fa-angle-double-left\"></span>"
+msgstr ""
+
+#: index.php:25 index.php:38
+msgid "<span class=\"fa fa-angle-double-right\"></span>"
+msgstr ""
+
+#: partials/content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: partials/content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: partials/content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: partials/content-none.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: partials/content-page.php:13 partials/content-single.php:19
+#: partials/content.php:41
+msgid "Pages:"
+msgstr ""
+
+#: partials/content.php:11
+msgid "Featured"
+msgstr ""
+
+#: partials/content.php:25 partials/headerhero.php:31
+#: partials/headerhero.php:32
+msgid ", "
+msgstr ""
+
+#: partials/content.php:30
+msgid "In "
+msgstr ""
+
+#: partials/content.php:31
+msgid "Edit&rarr;"
+msgstr ""
+
+#: partials/content.php:37
+msgid "<span class=\"meta-read-more\">Continue Reading &#8594;</span>"
+msgstr ""
+
+#: partials/excerpt-footer.php:5 partials/excerpt-footer.php:7
+msgid "Comments"
+msgstr ""
+
+#: partials/excerpt-footer.php:6
+msgid "Comment"
+msgstr ""
+
+#: partials/headerhero.php:42
+msgid "Currently"
+msgstr ""
+
+#: partials/headerhero.php:42
+msgid "posts in"
+msgstr ""
+
+#: partials/headerhero.php:46
+msgid "404 Page not Found"
+msgstr ""
+
+#: partials/headerhero.php:47
+msgid ""
+"Sorry, the page you are looking for does not exist. Please use the search "
+"form below."
+msgstr ""
+
+#: partials/headerhero.php:51
+msgid "Search Results"
+msgstr ""
+
+#: partials/headerhero.php:53
+#, php-format
+msgid "search results found for %s"
+msgstr ""
+
+#: partials/headerhero.php:61
+msgid "By"
+msgstr ""
+
+#: partials/headerhero.php:63
+msgid " In "
+msgstr ""
+
+#: partials/headerhero.php:66
+#, php-format
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Theme Name of the plugin/theme
+msgid "RedxunLite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.wowthemes.net/themes/redxun/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Simply the best theme to keep your readers engaged! Featuring beautiful "
+"unique header backgrounds, smart page navigation to reduce your website's "
+"bounce rate, great looking, modern, responsive, Redxun is the perfect choice "
+"for your blogging purposes! If you need extra features, the premium version "
+"is also available. Redxun is smart & beautiful - choose it & you'll love it!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WowThemesNet"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wowthemes.net"
+msgstr ""

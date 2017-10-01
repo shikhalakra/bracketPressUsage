@@ -1,0 +1,291 @@
+.bracket-shortcode-wrapper{
+	margin: 0 auto;
+}
+.bracket-wrap{
+	width: 1048px;
+	box-sizing: initial !important;
+}
+.bracket-wrap h2{
+	box-sizing: border-box;
+	height: 42px;
+	margin: 0;
+	margin-bottom: 10px;
+	line-height: 42px;
+	text-align: center;
+}
+#prev-round,
+#next-round{
+	height: 42px;
+	cursor: pointer;
+	margin: auto 0;
+	font-size: 16px;
+	font-weight: normal;
+}
+#prev-round{
+	float: left;
+}
+#next-round{
+	float: right;
+}
+.move-hidden{
+	display: none;
+}
+.move-disabled{
+	cursor: not-allowed !important;
+}
+.bracket-col{
+	float: left;
+	width: 202px;
+	margin-right: 60px;
+}
+.bracket-group,
+.bracket-group-match-name{
+	position: relative;
+	margin-bottom: 30px;
+	box-sizing: initial !important;
+}
+/* position for normal groups */
+.bracket-col:nth-of-type(2) .bracket-group{
+	margin-top: 49px;
+}
+.bracket-col:nth-of-type(2) .bracket-group:not(:nth-of-type(1)){
+	margin-top: 128px;
+}
+.bracket-col:nth-of-type(3) .bracket-group{
+	margin-top: 147px;
+}
+.bracket-col:nth-of-type(3) .bracket-group:not(:nth-of-type(1)){
+	margin-top: 324px;
+}
+.bracket-col:nth-of-type(4) .bracket-group{
+	margin-top: 343px;
+}
+.bracket-col:nth-of-type(4) .bracket-group:not(:nth-of-type(1)){
+	margin-top: 716px;
+}
+.bracket-col:nth-of-type(5) .bracket-group{
+	margin-top: 735px;
+}
+.bracket-col:nth-of-type(5) .bracket-group:not(:nth-of-type(1)){
+	margin-top: 1500px;
+}
+.bracket-col:nth-of-type(6) .bracket-group{
+	margin-top: 1519px;
+}
+.bracket-col:nth-of-type(3) > .bracket-finalist-no-name{
+	margin-top: 66px;
+}
+.bracket-col:nth-of-type(4) > .bracket-finalist-no-name{
+	margin-top: 162px;
+}
+.bracket-col:nth-of-type(5) > .bracket-finalist-no-name{
+	margin-top: 360px;
+}
+.bracket-col:nth-of-type(6) > .bracket-finalist-no-name{
+	margin-top: 752px;
+}
+.bracket-col:nth-of-type(7) > .bracket-finalist-no-name{
+	margin-top: 1536px;
+}
+/* position for match name groups */
+.bracket-col:nth-of-type(2) .bracket-group-match-name{
+	margin-top: 49px;
+}
+.bracket-col:nth-of-type(2) .bracket-group-match-name:not(:nth-of-type(1)){
+	margin-top: 150px;
+}
+.bracket-col:nth-of-type(3) .bracket-group-match-name{
+	margin-top: 169px;
+}
+.bracket-col:nth-of-type(3) .bracket-group-match-name:not(:nth-of-type(1)){
+	margin-top: 390px;
+}
+.bracket-col:nth-of-type(4) .bracket-group-match-name{
+	margin-top: 409px;
+}
+.bracket-col:nth-of-type(4) .bracket-group-match-name:not(:nth-of-type(1)){
+	margin-top: 870px;
+}
+.bracket-col:nth-of-type(5) .bracket-group-match-name{
+	margin-top: 889px;
+}
+.bracket-col:nth-of-type(5) .bracket-group-match-name:not(:nth-of-type(1)){
+	margin-top: 1830px;
+}
+.bracket-col:nth-of-type(6) .bracket-group-match-name{
+	margin-top: 1849px;
+}
+.bracket-col:nth-of-type(3) > .bracket-finalist{
+	margin-top: 86px;
+}
+.bracket-col:nth-of-type(4) > .bracket-finalist{
+	margin-top: 208px;
+}
+.bracket-col:nth-of-type(5) > .bracket-finalist{
+	margin-top: 448px;
+}
+.bracket-col:nth-of-type(6) > .bracket-finalist{
+	margin-top: 928px;
+}
+.bracket-col:nth-of-type(7) > .bracket-finalist{
+	margin-top: 1888px;
+}
+.match-name{
+	text-align: center;
+	margin: 0;
+	height: 22px;
+	width: 200px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	box-sizing: initial !important;
+}
+.bracket-item,
+.bracket-finalist,
+.bracket-finalist-no-name{
+	text-align: center;
+	border: 1px solid black;
+	height: 32px;
+	width: 200px;
+	line-height: 32px;
+	font-size: 16px;
+	margin: 0;
+	box-sizing: initial !important;
+}
+.bracket-group .bracket-item:nth-last-of-type(1){
+	height: 33px;
+}
+.bracket-group-match-name .bracket-item:nth-child(2n){
+	border-top: 0;
+}
+.bracket-group-match-name .match-name + .bracket-item:nth-child(2n){
+	/*border-bottom: 0;*/
+	border-top: 1px solid black;
+}
+.bracket-group .bracket-item:nth-last-of-type(1){
+	border-top: 0;
+}
+.bracket-item span{
+	float: right;
+}
+.item-counter{
+	border-left: 1px solid black;
+	height: 32px;
+	width: 15px;
+	line-height: 32px;
+	font-size: 18px;
+}
+.item-counter-input{
+	float: right;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 32px;
+	width: 15px;
+}
+.item-connector{
+	pointer-events: none;
+	position: absolute;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	box-sizing: initial !important;
+}
+/* normal connectors */
+.bracket-col:nth-of-type(1) .bracket-group .item-connector{
+	left: 200px;
+	width: 29px;
+	height: 49px;
+	bottom: -15px;
+}
+.bracket-col:nth-of-type(1) .bracket-group:nth-of-type(even) .item-connector,
+.bracket-col:nth-of-type(2) .bracket-group:nth-of-type(even) .item-connector,
+.bracket-col:nth-of-type(3) .bracket-group:nth-of-type(even) .item-connector,
+.bracket-col:nth-of-type(4) .bracket-group:nth-of-type(even) .item-connector,
+.bracket-col:nth-of-type(5) .bracket-group:nth-of-type(even) .item-connector{
+	bottom: 34px;
+}
+.bracket-col:not(:nth-of-type(1)) .bracket-group .item-connector{
+	width: 262px;
+	left: -32px;
+}
+.bracket-col:nth-of-type(2) .bracket-group .item-connector{
+	height: 98px;
+	bottom: -64px;
+}
+.bracket-col:nth-of-type(3) .bracket-group .item-connector{
+	height: 196px;
+	bottom: -162px;
+}
+.bracket-col:nth-of-type(4) .bracket-group .item-connector{
+	height: 392px;
+	bottom: -358px;
+}
+.bracket-col:nth-of-type(5) .bracket-group .item-connector{
+	height: 784px;
+	bottom: -750px;
+}
+.bracket-col:nth-last-of-type(2) .bracket-group .item-connector{
+	left: -32px;
+	bottom: 34px;
+	width: 293px;
+	height: 0 !important;
+}
+.bracket-group:nth-of-type(even) .item-connector{
+	transform: rotate(180deg) scaleX(-1);
+}
+/* match name connectors */
+.bracket-col:nth-of-type(1) .bracket-group-match-name .item-connector{
+	bottom: -14px;
+	left: 200px;
+	width: 29px;
+	height: 47px;
+}
+.bracket-col:nth-of-type(1) .bracket-group-match-name:nth-of-type(even) .item-connector{
+	height: 72px;
+	bottom: 33px;
+}
+.bracket-col:nth-of-type(2) .bracket-group-match-name .item-connector{
+	bottom: -87px;
+	left: -32px;
+	width: 262px;
+	height: 120px;
+}
+.bracket-col:nth-of-type(2) .bracket-group-match-name:nth-of-type(even) .item-connector{
+	bottom: 33px;
+}
+.bracket-col:nth-of-type(3) .bracket-group-match-name .item-connector{
+	width: 262px;
+	height: 240px;
+	left: -32px;
+	bottom: -207px;
+}
+.bracket-col:nth-of-type(3) .bracket-group-match-name:nth-of-type(even) .item-connector{
+	bottom: 33px;
+}
+.bracket-col:nth-of-type(4) .bracket-group-match-name .item-connector{
+	width: 262px;
+	height: 480px;
+	left: -32px;
+	bottom: -447px;
+}
+.bracket-col:nth-of-type(4) .bracket-group-match-name:nth-of-type(even) .item-connector{
+	bottom: 33px;
+}
+.bracket-col:nth-of-type(5) .bracket-group-match-name .item-connector{
+	height: 960px;
+	bottom: -927px;
+	width: 262px;
+	left: -32px;
+}
+.bracket-col:nth-of-type(5) .bracket-group-match-name:nth-of-type(even) .item-connector{
+	bottom: 33px;
+}
+.bracket-col:nth-last-of-type(2) .bracket-group-match-name .item-connector{
+	left: -32px;
+	bottom: 33px;
+	width: 293px;
+	height: 0 !important;
+}
+.bracket-group-match-name:nth-of-type(even) .item-connector{
+	transform: rotate(180deg) scaleX(-1);
+}
